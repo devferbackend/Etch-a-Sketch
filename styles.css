@@ -7,15 +7,15 @@
     body {
       min-height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
+      gap: 24px;
       background-color: #1a1a2e;
       font-family: 'Segoe UI', sans-serif;
     }
  
     h1 {
-      position: fixed;
-      top: 24px;
       color: #e0e0e0;
       font-size: 1.4rem;
       font-weight: 300;
@@ -39,9 +39,27 @@
       height: calc(100% / 16);
       background-color: #16213e;
       border: 1px solid #1a2744;
-      transition: background-color 0.15s ease;
+      transition: background-color 0.1s ease;
     }
  
-    .square:hover {
+    .painted {
       background-color: #e94560;
+    }
+ 
+    button {
+      padding: 10px 28px;
+      background-color: transparent;
+      color: #e94560;
+      border: 1px solid #e94560;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+ 
+    button:hover {
+      background-color: #e94560;
+      color: #1a1a2e;
     }
