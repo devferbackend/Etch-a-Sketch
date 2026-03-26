@@ -1,4 +1,4 @@
-* {
+ * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -42,11 +42,6 @@
     .square {
       background-color: #16213e;
       border: 1px solid #1a2744;
-      transition: background-color 0.1s ease;
-    }
- 
-    .painted {
-      background-color: #e94560;
     }
  
     button {
